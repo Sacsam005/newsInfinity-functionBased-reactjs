@@ -29,7 +29,7 @@ const App = (props) => {
               category="general"
             />
           </Route>
-          <Route exact path="/business component={Navbar}">
+          <Route exact path="/business" component={Navbar}>
             <News
               setProgress={setProgress}
               apiKey={apiKey}
